@@ -1,0 +1,9 @@
+.git/**
+.vscode/**
+.gitignore
+.vscodeignore
+node_modules/**
+implementation_plan.md
+task.md
+walkthrough.md
+*.vsix

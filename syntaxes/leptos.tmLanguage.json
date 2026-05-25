@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "leptos-html-injection",
+  "scopeName": "inline.leptos.html",
+  "injectionSelector": "L:source.rust -comment -string",
+  "patterns": [
+    {
+      "name": "meta.embedded.leptos.html",
+      "begin": "(view!)\\s*(\\{|\\()",
+      "beginCaptures": {
+        "1": {
+          "name": "entity.name.function.macro.rust"
+        },
+        "2": {
+          "name": "punctuation.definition.block.rust"
+        }
+      },
+      "end": "(\\}|\\))",
+      "endCaptures": {
+        "1": {
+          "name": "punctuation.definition.block.rust"
+        }
+      },
+      "patterns": [
+        {
+          "name": "meta.embedded.block.rust",
+          "begin": "\\{",
+          "beginCaptures": {
+            "0": {
+              "name": "punctuation.section.block.begin.rust"
+            }
+          },
+          "end": "\\}",
+          "endCaptures": {
+            "0": {
+              "name": "punctuation.section.block.end.rust"
+            }
+          },
+          "patterns": [
+            {
+              "include": "source.rust"
+            }
+          ]
+        },
+        {
+          "include": "text.html.basic"
+        }
+      ]
+    }
+  ]
+}
