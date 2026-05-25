@@ -19,6 +19,7 @@
     "emmet",
     "inline-html"
   ],
+  "icon": "icon.png",
   "main": "./extension.js",
   "activationEvents": [
     "onLanguage:rust"
