@@ -1,32 +1,12 @@
-# Node.js / Dependency directories
+# VS Code local folders
+.vscode/
 node_modules/
 
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-
-# VS Code packaging and testing
+# Compilation / Packaging outputs
 *.vsix
-.vscode-test/
-out/
-dist/
 
-# OS Metadata
-.DS_Store
-Thumbs.db
-
-# VS Code configuration (keep launch configurations if needed, but ignore user workspace state)
-.vscode/
-
-# Local Environment Variables
-.env
-.env.local
-
-# Agent/Workspace Planning Artifacts
+# Local Agent plans, checklists, and logs
 implementation_plan.md
 task.md
 walkthrough.md
+.system_generated/
