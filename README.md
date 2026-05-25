@@ -123,7 +123,7 @@ For Rust diagnostics, type inference, and code navigation, it is recommended to 
 
 Issues, feature requests, and contributions are welcome.
 
-Repository: [github.com/danar-qusyairi/leptos-html-intellisense](https://github.com/danar-qusyairi/leptos-html-intellisense)
+Repository: [github.com/DanarQusyairi/leptos-html-intellisense](https://github.com/DanarQusyairi/leptos-html-intellisense)
 
 ## License
 
