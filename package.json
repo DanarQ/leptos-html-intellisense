@@ -1,6 +1,6 @@
 {
   "name": "leptos-html-rsx-intellisense",
-  "displayName": "Leptos HTML/RSX IntelliSense",
+  "displayName": "Leptos HTML/RSX IntelliSense Support",
   "description": "HTML IntelliSense, auto-closing tags, and Emmet inside the Leptos view! macro in Rust",
   "version": "0.1.1",
   "publisher": "DanarQusyairi",
