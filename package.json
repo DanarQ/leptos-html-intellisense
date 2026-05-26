@@ -2,7 +2,7 @@
   "name": "leptos-html-rsx-intellisense",
   "displayName": "Leptos HTML/RSX IntelliSense",
   "description": "HTML IntelliSense, auto-closing tags, and Emmet inside the Leptos view! macro in Rust",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "DanarQusyairi",
   "engines": {
     "vscode": "^1.60.0"
@@ -32,6 +32,13 @@
         "injectTo": [
           "source.rust"
         ]
+      },
+      {
+        "scopeName": "inline.leptos.attributes",
+        "path": "./syntaxes/leptos-attributes.tmLanguage.json",
+        "injectTo": [
+          "source.rust"
+        ]
       }
     ],
     "languages": [
@@ -48,11 +55,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DanarQ/leptos-html-rsx-intellisense.git"
+    "url": "https://github.com/DanarQusyairi/leptos-html-intellisense.git"
   },
   "bugs": {
-    "url": "https://github.com/DanarQ/leptos-html-rsx-intellisense/issues"
+    "url": "https://github.com/DanarQusyairi/leptos-html-intellisense/issues"
   },
-  "homepage": "https://github.com/DanarQ/leptos-html-rsx-intellisense#readme"
+  "homepage": "https://github.com/DanarQusyairi/leptos-html-intellisense#readme"
 }
-

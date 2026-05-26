@@ -23,26 +23,6 @@
       },
       "patterns": [
         {
-          "name": "meta.embedded.block.rust",
-          "begin": "\\{",
-          "beginCaptures": {
-            "0": {
-              "name": "punctuation.section.block.begin.rust"
-            }
-          },
-          "end": "\\}",
-          "endCaptures": {
-            "0": {
-              "name": "punctuation.section.block.end.rust"
-            }
-          },
-          "patterns": [
-            {
-              "include": "source.rust"
-            }
-          ]
-        },
-        {
           "include": "text.html.basic"
         }
       ]

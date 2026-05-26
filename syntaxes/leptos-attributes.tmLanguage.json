@@ -1,0 +1,28 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "leptos-attributes-injection",
+  "scopeName": "inline.leptos.attributes",
+  "injectionSelector": "L:source.rust text.html.basic -comment -string",
+  "patterns": [
+    {
+      "name": "meta.embedded.block.rust",
+      "begin": "\\{",
+      "beginCaptures": {
+        "0": {
+          "name": "punctuation.section.block.begin.rust"
+        }
+      },
+      "end": "\\}",
+      "endCaptures": {
+        "0": {
+          "name": "punctuation.section.block.end.rust"
+        }
+      },
+      "patterns": [
+        {
+          "include": "source.rust"
+        }
+      ]
+    }
+  ]
+}
