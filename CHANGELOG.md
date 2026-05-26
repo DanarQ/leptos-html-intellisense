@@ -2,6 +2,11 @@
 
 All notable changes to the "Leptos HTML/RSX IntelliSense" extension will be documented in this file.
 
+## [0.1.2] - 2026-05-26
+
+### Changed
+- Updated repository URLs and metadata to point to `DanarQ/leptos-html-rsx-intellisense`.
+
 ## [0.1.1] - 2026-05-26
 
 ### Fixed
